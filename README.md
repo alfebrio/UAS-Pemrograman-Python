@@ -5,8 +5,8 @@ Repositori ini merupakan implementasi tugas Ujian Akhir Semester (UAS) untuk mat
 
 ## Struktur
 - `server.py` – Backend server yang menangani operasi CRUD ke database.
-- `db_phone.sql` – Skrip SQL untuk membuat dan mengisi tabel database (misal: tabel chipset).
-- `client.py` – Aplikasi client yang berkomunikasi dengan server untuk menampilkan atau memanipulasi data.
+- `db_phone.sql` – Skrip SQL untuk membuat dan mengisi tabel database.
+- `client.py` – Aplikasi client yang berkomunikasi dengan server.
 
 ## Fitur
 - Menambahkan data baru ke database melalui client.
@@ -24,5 +24,6 @@ Repositori ini merupakan implementasi tugas Ujian Akhir Semester (UAS) untuk mat
 ## Setup
 ```bash
 mysql -u [user] -p < db_phone.sql
+
 
 
