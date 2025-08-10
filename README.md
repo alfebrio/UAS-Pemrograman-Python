@@ -25,7 +25,3 @@ Repositori ini merupakan implementasi tugas Ujian Akhir Semester (UAS) untuk mat
 ```bash
 mysql -u [user] -p < db_phone.sql
 
-
-
-
-
