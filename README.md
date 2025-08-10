@@ -8,10 +8,10 @@ Repositori ini merupakan implementasi tugas Ujian Akhir Semester (UAS) untuk mat
 - `db_phone.sql` – Skrip SQL untuk membuat dan mengisi tabel database (misal: tabel chipset).
 - `client.py` – Aplikasi client yang berkomunikasi dengan server untuk menampilkan atau memanipulasi data.
 
-## Fitur Utama
-- Menambahkan kontak baru ke database melalui client.
-- Menampilkan dan memperbarui data kontak yang tersimpan.
-- Menghapus kontak yang tidak dibutuhkan dengan aman.
+## Fitur
+- Menambahkan data baru ke database melalui client.
+- Menampilkan dan memperbarui data yang tersimpan.
+- Menghapus data yang tidak dibutuhkan.
 - Komunikasi client–server menggunakan protokol HTTP (dengan Flask/Socket).
 
 ## Komponen
@@ -22,6 +22,6 @@ Repositori ini merupakan implementasi tugas Ujian Akhir Semester (UAS) untuk mat
 | Komunikasi    | HTTP REST API         |
 
 ## Setup
-   ```bash
-   mysql -u [user] -p < db_phone.sql
+```bash
+mysql -u [user] -p < db_phone.sql
 
