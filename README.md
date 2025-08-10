@@ -23,5 +23,5 @@ Repositori ini merupakan implementasi tugas Ujian Akhir Semester (UAS) untuk mat
 
 ## Setup
 ```bash
-mysql -u [user] -p < db_phone.sql
+mysql -u [user] -p > db_phone.sql
 
